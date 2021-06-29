@@ -1,0 +1,94 @@
+.location-address-dialog {
+  .MuiDialog-paper {
+    width: 604px;
+  }
+
+  .dialog-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 16px;
+
+    .title {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .description {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+    }
+
+    .close-button {
+      border-radius: 12px;
+    }
+  }
+
+  .dialog-content {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid #F2F2F2;
+    
+    .MuiInputLabel-root {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      color: #333333;
+    }
+    .MuiOutlinedInput-input {
+      padding-left: 15px !important;
+      padding-right: 20px !important;
+    }
+    .upload-button {
+      border: 2px solid #2F80ED;
+      border-radius: 12px;
+      .MuiButton-outlined {
+        padding: 12px 15px;
+      }
+      .MuiButton-label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #2F80ED;
+      }
+
+      .MuiButton-startIcon {
+        color: #2F80ED;
+        transform: rotate(-45deg);
+      }
+    }
+
+    .preview-images {
+      .thumb-wrapper {
+        width: 55px;
+        height: 55px;
+        padding: 0px;
+      }
+      .delete{
+        background: url("../../../../Assets/icons/Delete.png")no-repeat;
+        background-size: contain;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    }
+
+    .css-yk16xz-control, .css-1pahdxg-control {
+      border-radius: 12px;
+      min-height: 56px;
+    }
+  }
+
+  .action-button-group {
+    justify-content: space-between;
+  }
+}

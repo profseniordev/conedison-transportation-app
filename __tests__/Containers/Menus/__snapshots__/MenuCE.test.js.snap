@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="App-header"
+>
+  <div>
+    <div
+      className="ce-sidebar"
+      id="ceSidebar"
+    >
+      <div
+        className="d-flex justify-content-between align-items-center"
+      >
+        <div
+          className="d-flex justify-content-between align-items-center"
+        >
+          <div
+            className="user-avatar"
+          >
+            <img
+              alt=""
+              src="no-ava.png"
+            />
+          </div>
+          <div
+            className="user-info text-left"
+          >
+            <div
+              className="fullname"
+            >
+              undefined undefined
+            </div>
+            <div
+              className="role"
+            >
+              1
+            </div>
+          </div>
+        </div>
+        <div
+          className="mr-3"
+        >
+          <img
+            alt=""
+            src="chevron-right-12.png"
+          />
+        </div>
+      </div>
+      <hr
+        className="styleHr"
+      />
+      <ul
+        className="mt-3"
+      >
+        <li>
+          <span
+            className="link cursor-pointer"
+            onClick={[Function]}
+          >
+            Map
+          </span>
+        </li>
+        <li>
+          <span
+            className="link cursor-pointer"
+            onClick={[Function]}
+          >
+            Job List
+          </span>
+        </li>
+        <li>
+          <span
+            className="link cursor-pointer"
+            onClick={[Function]}
+          >
+            Job Grid
+          </span>
+        </li>
+        <li>
+          <span
+            className="link cursor-pointer"
+            onClick={[Function]}
+          >
+            Timesheets
+          </span>
+        </li>
+        <li
+          className="log-out"
+          onClick={[Function]}
+        >
+          <span>
+            <img
+              alt=""
+              className="mr-2"
+              src="logout.png"
+            />
+            <span>
+              Log Out
+            </span>
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="ce-sidebar-opacity"
+      id="ceSidebarOpacity"
+      onClick={[Function]}
+    />
+    <div
+      className="menu-mobile"
+    >
+      <div
+        className="menu-icon d-flex align-items-center"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="m-auto"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA4SURBVFhH7dOxCQAADAJB9186WUCwMZDiD760VAA+muMiN2oGIHLXaRa5UTMAkbtOs8iNmgH4RFrzpY9xuWJl5QAAAABJRU5ErkJggg=="
+        />
+      </div>
+      <img
+        alt="logo"
+        src="https://storage.googleapis.com/conedison/assets/coned_logo.png"
+        style={
+          Object {
+            "height": 24,
+            "width": 143,
+          }
+        }
+      />
+    </div>
+    <div
+      className="menu-web"
+    >
+      <img
+        alt="logo"
+        className="d-none d-md-block ml-3 "
+        src="https://storage.googleapis.com/conedison/assets/coned_logo.png"
+        style={
+          Object {
+            "height": 24,
+            "width": 143,
+          }
+        }
+      />
+      <div
+        className="menu-router"
+      >
+        <a
+          className="p-xl-3"
+          href="/map"
+          id="map"
+        >
+          Map
+        </a>
+        <a
+          className="p-xl-3"
+          href="/job"
+          id="job"
+        >
+          Job List
+        </a>
+        <a
+          className="p-xl-3"
+          href="/job-grid"
+          id="job-grid"
+        >
+          Job Grid
+        </a>
+        <a
+          className="p-xl-3"
+          href="/timesheets"
+          id="timesheets"
+        >
+          Timesheets
+        </a>
+      </div>
+      <div
+        className="header-action d-flex align-items-center mr-3"
+      >
+        <a
+          className="p-3 notification-icon "
+          href="/notifications"
+        >
+          <div
+            className="border-custom"
+          >
+            <svg>
+              bell.svg
+            </svg>
+          </div>
+        </a>
+        <div
+          className="p-3 user-icon "
+          id="profile"
+          onClick={[Function]}
+        >
+          <div
+            className="border-custom"
+          >
+            <svg>
+              user.svg
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;

@@ -1,0 +1,67 @@
+.mt-14{
+    margin-top: -14px;
+}
+
+.mt-11{
+    margin-top: 11px;
+}
+.bg-grey{
+    background: #F2F2F2;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 35px;
+    width: 35px;
+    padding: 9px;
+}
+.worker-row{
+    flex-direction: row;
+    display: flex;
+    margin-top: 17px;
+    border: 1px solid #E0E0E0;
+    width: 100%;
+    border-radius: 12px;
+    padding-bottom: 8px;
+    margin-left: 11px;
+    .margins{
+        margin-left: -28px;
+        margin-top: 26px;
+        margin-right: 49px;
+    }
+    .ml-77{
+        margin-left: 77px;
+    }
+    .vl {
+        border-left: 1px solid #E0E0E0;
+        height: 73px;
+        margin-bottom: -30px;
+        margin-top: -24px;
+        margin-left: -10px;
+        margin-right: 9px;
+      }
+}
+
+.avatarSmall{
+    overflow: hidden;
+    content: "";
+    text-indent: -10000px;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("../../../Assets/avatar.png");
+    background-size: contain;
+    // background-position: center;
+    width: 22px;
+    height: 22px;
+    margin-top: -9px;
+
+    &:before {
+        content: "";
+        display: block;
+        background-repeat: no-repeat;
+        // background-image: url("./Assets/avatar.png");
+        background-size: contain;
+        // background-position: center;
+        width: 22px;
+        height: 22px;
+    }
+}

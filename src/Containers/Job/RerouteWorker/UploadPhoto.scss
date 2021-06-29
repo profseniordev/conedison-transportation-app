@@ -1,0 +1,61 @@
+.button-upload{
+    
+width: 147px;
+left: calc(50% - 147px/2 - 204.5px);
+top: 34.17%;
+bottom: 59.17%;
+
+background: #FFFFFF;
+/* Blue 1 */
+
+border: 2px solid #2F80ED;
+border-radius: 12px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+height: 62px;
+/* align-content: center; */
+padding-left: 18px;
+/* Blue 1 */
+
+color: #2F80ED;
+    &:active {
+        border: 2px solid #2F80ED;
+        border-radius: 12px;
+    }
+
+}
+.upload-button {
+    border: 2px solid #2F80ED;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    .MuiButton-outlined {
+      padding: 12px 15px;
+    }
+    .MuiButton-root{
+        height: 62px;
+        width: 147px;
+    }
+    .MuiButton-label {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: capitalize;
+      color: #2F80ED;
+    }
+
+    .MuiButton-startIcon {
+      color: #2F80ED;
+      transform: rotate(-45deg);
+    }
+  }
+.displayFlex {
+    display: flex;
+    .images-row {
+        margin-top: -7px;
+        margin-left: 19px;
+    }
+}

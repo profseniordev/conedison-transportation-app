@@ -1,0 +1,159 @@
+.note-container {
+  margin: 0 !important;
+  .note-title {
+    height: 41px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    padding: 8px 18px;
+    justify-content: space-between;
+    svg {
+      margin-right: 10px;
+    }
+    .mt-9{
+      margin-top: 9px;
+    }
+    .note-filter {
+      border: 1px solid #F2F2F2;
+      border-radius: 8px;
+      width: 35px;
+      height: 35px;
+      padding: 5.3px;
+      margin-top: 6px;
+      cursor: pointer;
+      
+      &.active {
+        background: #333333;
+        .MuiSvgIcon-root {
+          fill: #ffffff;
+        }
+      }
+      .numbers {
+        background: #2F80ED;
+        color: #ffffff;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-top: -8px;
+        padding-right: 2px;
+      }
+      
+    }
+    
+  }
+  .MuiInputBase-fullWidth {
+    width: 94%;
+  }
+
+  .note-body {
+    background: rgba(242, 242, 242, 0.4);
+    box-shadow: inset 0px 0px 24px rgba(0, 0, 0, 0.15);
+    .pickup_note {
+      width: 100%;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #333333;
+      margin-top: 12px;
+      margin-bottom: 20px;
+      height: auto;
+      max-height: 170px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .container {
+        margin-bottom: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+        .date {
+          min-width: 80px;
+          font-weight: bold;
+          font-size: 10px;
+          display: flex;
+          letter-spacing: 0.02em;
+          color: #828282;
+        }
+        .body {
+          width: 100%;
+          font-size: 10px;
+        }
+        .admin {
+          font-weight: bold;
+          font-size: 10px;
+          margin-left: 10px;
+        }
+      }
+    }
+    .textFieldNote {
+      margin-bottom: 18px;
+      .MuiInputBase-root {
+        height: 40px;
+        background: #ffffff;
+        border: 1px solid #f2f2f2;
+        box-sizing: border-box;
+        margin-left: 10px;
+        //    box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+        border-radius: 8px !important;
+      }
+
+      &.MuiOutlinedInput-root {
+        border-radius: 0 0 4px 4px;
+        &.MuiInputBase-input {
+          font-size: 14px;
+          padding: 17.9px 14px;
+        }
+      }
+      &.Mui-focused {
+        & .MuiOutlinedInput-notchedOutline {
+          //  border-top-width: inherit;
+          border: none;
+        }
+      }
+      & .MuiOutlinedInput-notchedOutline {
+        //   border-top-width: inherit;
+        border: none;
+      }
+      button {
+        height: 32px;
+        width: 32px;
+        background: #333333;
+        //  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+        border-radius: 8px;
+        color: white;
+        svg {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+  }
+}
+.MuiMenu-paper {
+  border-radius: 16px !important;
+}
+.apply-filter{
+  background: #333333;
+  width: 181px;
+  border-radius: 12px;
+  color: white;
+  font-size: 14;
+  font-weight: 500;
+  height: 28px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3px;
+  margin-top: 5px;
+}

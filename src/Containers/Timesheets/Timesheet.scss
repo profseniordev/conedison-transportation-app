@@ -1,0 +1,62 @@
+.timesheet-list-page {
+  .MuiTableCell-root {
+    padding: 10px !important;
+  }
+}
+.customDatePickerWidth {
+  margin-top: 13px;
+
+  .datetime-picker__wrapper .react-time-picker {
+    width: 70px;
+  }
+  .react-date-picker__inputGroup,
+  .react-time-picker__inputGroup {
+    min-width: 0;
+    font-size: small;
+  }
+  .react-date-picker__wrapper,
+  .react-time-picker__wrapper {
+    height: 37px;
+  }
+}
+
+.container.workers-list-page,
+.table-invoices {
+  min-height: 500px;
+}
+
+.sub-header {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.timesheet-title {
+  font-family: Roboto Bold;
+  font-size: 1rem;
+  color: #1a242d;
+}
+
+.timesheet-body {
+  padding-top: 15px;
+  background: #eeeff3;
+}
+
+.timesheet-button {
+  border-radius: 20px;
+  color: #fff;
+}
+
+.timesheet-button.full-width {
+  width: 100%;
+}
+
+.timesheet-loader_wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+}

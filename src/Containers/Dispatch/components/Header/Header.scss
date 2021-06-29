@@ -1,0 +1,122 @@
+.builded-select {
+  background: white;
+  width: 120px;
+  height: 113px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 16px;
+  position: fixed;
+  margin-top: 8px;
+  padding-top: 12px;
+  .MuiTypography-body1 {
+    margin-right: auto;
+  }
+  .MuiFormControlLabel-labelPlacementStart {
+    margin-left: 16px;
+    margin-right: -11px;
+    flex-direction: row-reverse;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+.MuiButton-outlined {
+  border: none !important;
+  padding: 5px 15px;
+}
+.panel {
+  overflow: visible;
+  .MuiInputLabel-formControl {
+    top: -16px;
+    left: 13px;
+  }
+}
+.requestor_menu {
+  outline: 0;
+  position: absolute;
+  max-width: calc(100% - 32px);
+  min-width: 16px;
+  min-height: 16px;
+  overflow-x: unset !important;
+  overflow-y: unset !important;
+  border-radius: 16px !important;
+  border: 1px solid #f2f2f2;
+  width: 185px;
+  box-sizing: border-box;
+  .MuiMenuItem-root {
+    min-height: auto;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .MuiTypography-body1 {
+    margin-right: auto;
+  }
+  .MuiFormControlLabel-labelPlacementStart {
+    width: 90%;
+  }
+}
+.job-select {
+  outline: 0;
+  position: absolute;
+  max-width: calc(100% - 32px);
+  min-width: 16px;
+  min-height: 16px;
+  overflow-x: unset !important;
+  overflow-y: unset !important;
+  border-radius: 16px !important;
+  border: 1px solid #f2f2f2;
+  width: 220px;
+  box-sizing: border-box;
+  .MuiMenuItem-root {
+    min-height: auto;
+    height: 47px;
+  }
+  .MuiTypography-body1 {
+    margin-right: auto;
+  }
+  .MuiFormControlLabel-labelPlacementStart {
+    width: 90%;
+  }
+  .reset {
+    background: #f2f2f2;
+    color: #828282;
+    height: 48px;
+    border-radius: 0 0 16px 16px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: -14px;
+    transition: 0.3s;
+    &:hover {
+      color: #313131;
+    }
+  }
+}
+
+.calendar {
+  position: fixed;
+  margin-left: 1709px;
+  margin-top: -47px;
+  z-index: 5;
+  .react-daterange-picker__wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: center;
+    /* border: thin solid gray; */
+    background: rgba(189, 189, 189, 0.1) !important;
+    border-radius: 20px !important;
+    height: 38px;
+  }
+  .react-daterange-picker__calendar-button {
+    display: none;
+  }
+  .react-daterange-picker__clear-button {
+    display: none;
+  }
+  .react-calendar {
+    border-width: thin;
+    margin-top: 8px;
+    margin-left: 41px;
+  }
+}

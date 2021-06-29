@@ -1,0 +1,329 @@
+.invoices-list-page {
+  height: 100%;
+  background: #eeeff3;
+
+  .page-header {
+    margin-left: -3rem !important;
+    margin-right: -3rem !important;
+    background: white;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  .block-white {
+    padding: 20px !important;
+    margin-bottom: 0;
+    .MuiAutocomplete-root{
+      width: 100% !important;
+      .MuiOutlinedInput-input {
+        padding: 0px !important;
+      }
+      .MuiFormLabel-root {
+        padding-top: 7px;
+      }
+      .MuiInputLabel-shrink {
+        margin-top: -5px;
+      }
+    }
+    .MuiAutocomplete-inputRoot{
+      padding: 0;
+      padding-top: 5px;
+    }
+    .MuiAutocomplete-tag {
+      margin: 5px;
+      margin-right: 5px;
+      max-width: 40%;
+      /* max-width: 148px; */
+  }
+  .MuiOutlinedInput-root{
+    min-height: 55px !important;
+  }
+  .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot{
+    padding-top: 11px ;
+    padding-bottom: 11px ;
+    padding-left: 15px ;
+    padding-right: 0px ;
+    min-height: 55px;
+  }
+  .MuiInputBase-input {
+    width: 2% !important;
+  }
+  }
+  .page-title-gray {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #bdbdbd;
+  }
+  .box-shadow {
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+  .header {
+    padding: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    .lbl-time {
+      margin-top: -32px;
+      padding-bottom: 26px;
+    }
+    .lbl {
+      font-family: Roboto;
+      font-style: normal;
+      //font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      //color: #4F4F4F;
+    }
+
+    /*.DatePicker-rootRidePage-7 .DateRangePickerInput_arrow {
+      margin: 3px;
+      margin-top: 16px;
+    }
+    .DatePicker-rootRidePage-7 .DateRangePicker .DateRangePickerInput {
+      border: 1px solid lightgrey !important;
+      height: 55px !important;
+      padding: 0 2px 2px !important;
+      background: none !important;
+      background-color: none !important;
+      background: white !important;
+      border-radius: 13px !important;
+      // margin-right: 5px; 
+    }
+    .DatePicker-rootRidePage-7 .DateInput_input {
+      padding: 17px 6px 4.2px !important;
+      font-size: 16px !important;
+      background: none !important;
+      align-items: center !important;
+      // line-height: 0; 
+      background-color: none !important;
+    }*/
+    .MuiFormLabel-root.Mui-focused {
+      //color: #2684FF;
+  }
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    //border-color: #2684FF;
+    //box-shadow: none;
+    //border-width: 2px;
+  }
+  .MuiSelect-selectMenu {
+    width: 100% !important;
+    padding-left: 16px !important;
+  }
+  .MuiSelect-select {
+    &:focus{
+    background-color: transparent;
+    }
+  }
+  }
+  
+}
+
+.btn-grey {
+  background: #bdbdbd;
+  border-radius: 12px;
+  width: 131px;
+  height: 55px;
+  color: white;
+  margin-top: 15px;
+
+  &:hover {
+    opacity: 1.5;
+  }
+}
+
+.page-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1a242d;
+}
+.btn-dark {
+  background: #333333;
+  width: 128px;
+  height: 32px;
+  border-radius: 20px !important;
+  color: white;
+  width: 233px;
+  padding-bottom: 33px;
+  font-size: 16;
+  font-weight: 600;
+  font-family: 'Roboto';
+  border-color: #343a40;
+
+  &:focus{
+    box-shadow: none;
+  }
+
+  &:hover {
+    border-color: transparent;
+    opacity: 0.8 !important;
+  }
+}
+.Invoices-table {
+  //padding: 0 16px 0 16px;
+
+  @media (max-height: 700px) { 
+    .MuiTableContainer-root{
+      height: 42vh;
+    }
+  }
+  .download-image {
+    background-size: contain;
+    background: url('../../Assets/icons/Icon.png') no-repeat;
+    width: 12px;
+    height: 12px;
+  }
+
+  .border-img {
+    width: 24px;
+    height: 24px;
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+    svg {
+      width: 16px;
+    }
+    span {
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #2f80ed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 20px;
+      color: #ffffff;
+    }
+  }
+
+  .MuiPaper-rounded {
+    border-radius: 16px;
+    border: 1px solid #f2f2f2;
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: none;
+  }
+}
+.h4 {
+  font-weight: 900 !important;
+}
+
+.text-12 {
+  font-size: 12px;
+  color: #bdbdbd;
+}
+.border-close {
+  background: #f2f2f2;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 4px;
+}
+.horisontal-line {
+  height: 1px;
+  width: 100%;
+  background: #f2f2f2;
+}
+.label {
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  color: #828282;
+}
+.value {
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  color: #333333;
+}
+.blue-bg {
+  background: #2f80ed;
+  border-radius: 4px;
+}
+.Invoices-table {
+  .MuiTable-root {
+    table-layout: auto;
+  }
+  .MuiTableContainer-root {
+    width: 100%;
+    max-height: 55vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    .MuiTableCell-root {
+      padding: 0;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+}
+  a {
+    display: contents;
+    text-decoration: none;
+    color: white;
+    :hover{
+      text-decoration: none;
+      color: white;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #333;
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: #333;
+  }
+}
+.MuiTableRow-root {
+  white-space: nowrap;
+}
+.d-grid-4 {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 0.5fr;
+  //justify-items: center;
+  column-gap: 2%;
+}
+.MuiAutocomplete-paper{
+  border-radius: 16px !important;
+}
+.MuiMenu-paper {
+  margin-top: 3px;
+}

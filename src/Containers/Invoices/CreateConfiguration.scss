@@ -1,0 +1,252 @@
+.slide-container-invoices {
+    //position: fixed;
+    //right: -100%;
+    //top: 0;
+    //bottom: 0;
+    //background: none;
+    //z-index: 1041;
+    //width: 100%;
+    display: flex;
+    //justify-content: flex-end;
+    overflow-y: auto;
+
+    .w-29{
+      width: 29% !important;
+    }
+
+    .MuiFormControl-root {
+      width: 100%;
+      .css-1okebmr-indicatorSeparator {
+        width: 0.5px;
+      }
+    }
+
+    .custom-control{
+        padding-top: 9px;
+    }
+    .custom-control{
+        padding-top: 9px;
+    }
+
+    .MuiSvgIcon-root {
+        color: lightgray;
+    }
+  
+    &.showed-invoices {
+      //right: 35%;
+  
+      .slide-content {
+      //  transform: translate(0);
+      }
+    }
+    .css-yk16xz-control{
+        height: 50px;
+        border-radius: 11px;
+    }
+    .css-1pahdxg-control{
+        height: 55px;
+        border-radius: 11px;
+    }
+    .css-g1d714-ValueContainer {
+      max-height: 48px;
+    }
+    .margin-date{
+      margin-top: 10px;
+      margin-left: 1px;
+    }
+    .first-title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        /* identical to box height, or 200% */
+
+        display: flex;
+        align-items: center;
+
+        /* Gray 2 */
+
+        color: #4F4F4F;
+    }
+    .slide-content {
+        width: 611px;
+        min-width: 300px;
+        max-width: 750px;
+        background: white;
+        transition: cubic-bezier(0.215, 0.61, 0.355, 1) 250ms;
+        display: flex;
+        flex-direction: column;
+        //height: 94vh;
+        padding: 20px;
+        border-radius: 20px;
+
+      .MuiSvgIcon-root {
+          margin-left: 7px;
+      }
+      .pl9{
+        padding-left: 9px;
+      }
+      .slide-header {
+        background-color: white;
+        padding: 10px 15px;
+        height: 59px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+  
+        .slide-number {
+          padding-left: 20px;
+        }
+  
+        .slide-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.02em;
+            color: #0A1629;
+            justify-content: space-between;
+            flex: 1;
+        }
+        .close-slider{
+            background: #F2F2F2;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 12px;
+            height: 38px;
+            width: 40px;
+            padding: 8px;
+
+            &:hover{
+                background: rgb(190, 187, 187)
+            }
+        }
+      }
+      .date-margins{
+        margin-right: 0;
+        margin-left: 191px;
+        margin-top: -10px;
+      }
+      .sub-slide-title{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #BDBDBD;
+        margin-left: 15px;
+    }
+      .slide-body {
+        flex: 1;
+        background: #fff;
+        overflow-x: hidden;
+        overflow-y: auto;
+  
+        &::-webkit-scrollbar-track {
+          border-radius: 50px;
+          background-color: #dbdede;
+        }
+  
+        &::-webkit-scrollbar {
+          width: 5px;
+          height: 5px;
+          background-color: #dbdede;
+        }
+  
+        &::-webkit-scrollbar-thumb {
+          border-radius: 50px;
+          background-color: #707881;
+        }
+  
+        .section-settings {
+          padding: 15px;
+          margin: 10px -15px -15px -15px;
+          background-color: #f4f5f6;
+          border-top: solid 1px #eee;
+          border-bottom: solid 1px #eee;
+        }
+      }
+  
+      .slide-footer {
+        background-color: #f1f2f3;
+        border-top: solid 1px #ddd;
+        padding: 10px 15px;
+  
+        .slide-actions {
+          display: flex;
+          align-items: center;
+  
+          button {
+            font-size: 0.9rem;
+            line-height: 0.9rem;
+          }
+        }
+      }
+    }
+    .justify-content{
+      justify-content: space-between;
+    }
+    .date-border{
+      margin-top: -12px;
+      border: 1px solid lightgrey;
+      border-radius: 12px;
+      height: 42px;
+      .MuiFormControl-root {
+        width: 206;
+      }
+      .MuiInput-root {
+        position: relative;
+        padding-left: 10px;
+    }
+      .MuiInputBase-input {
+        width: 95% !important;
+        height: auto;
+      }
+      .MuiInput-underline{
+        &:before{
+        border: 0;
+        content: none;
+        }
+        &:after{
+          border-bottom: 0;
+          content: none;
+          }
+        &:hover{
+          border: 0;
+        }
+      }
+    }
+    .ce-form-control {
+      border: 1px solid lightgrey;
+    }
+    .width-48{
+        width: 48%;
+    }
+    .btn-light{
+        color: #212529;
+        background-color: #f8f9fa;
+        border-color: #f8f9fa;
+        border-radius: 20px;
+        width: 144px;
+    }
+    .ce-date .react-date-picker--enabled{
+      border: none;
+    }
+    .mb27{
+        margin-bottom: 27px;
+    }
+    .pl5{
+        padding-left: 5px;
+    }
+
+    .br-12{
+      border-radius: 12px !important;
+    }
+  }
+  .MuiDialog-paperWidthSm {
+    overflow-y: hidden !important;
+}

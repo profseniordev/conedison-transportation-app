@@ -1,0 +1,157 @@
+.text-roboto-28 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 136.02%;
+  color: #27272e;
+}
+.text-roboto-16-grey {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+.MuiCheckbox-colorPrimary {
+  background: #2f80ed;
+}
+.text-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #2f80ed;
+  margin-top: 10px;
+}
+.mtop-5 {
+  margin-top: -5%;
+}
+.forgot-password-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -12px;
+  .lbl {
+    margin-top: 11px;
+    margin-left: 8px;
+  }
+}
+.sign-in-btn {
+  margin-top: 27px;
+  width: 46%;
+  margin-bottom: 25px;
+  .btn {
+    &:hover {
+      background-color: #818181;
+    }
+    height: 49px;
+    background: #333333;
+    border-radius: 12px;
+    color: white;
+    @media (min-width: 1025px) {
+      .arrow {
+        background: url('../../Assets/login/arrow.png') no-repeat;
+        width: 16px;
+        height: 12px;
+        margin-left: auto;
+        margin-top: -20px;
+        margin-right: 41px;
+      }
+    }
+    .p {
+      margin-left: -42px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.layout {
+  background: #f5f9fe;
+  height: 100%;
+  .input-login {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
+    padding: 5px;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 47px;
+    font-size: 14px;
+    font-family: Roboto Regular;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-top: 3px;
+    margin-bottom: 21px;
+    @media (min-width: 1025px) {
+      width: 390px;
+    }
+  }
+  @media (min-width: 1025px) {
+    background: white;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .form-login {
+      width: 45.5%;
+    }
+
+    .background-rectangle {
+      width: 48.5%;
+      height: 100%;
+    }
+    .marginLeft {
+      margin-left: 276px !important;
+    }
+  }
+  @media (max-width: 1024px) {
+    .sign-in-btn {
+      width: 100%;
+    }
+    .row-mobile {
+      display: flex;
+      flex-direction: column;
+    }
+    img {
+      display: none;
+    }
+    .form-login {
+      width: 100%;
+    }
+
+    .icon {
+      background: url('../../Assets/login/coned-well-be-back 1.png') no-repeat;
+      width: 143px;
+      height: 72px;
+    }
+    .mtop46 {
+      margin-top: 46px !important;
+    }
+    .text-roboto-28 {
+      text-align: center;
+    }
+  }
+}
+.login-container {
+  background: white;
+  margin-top: 0;
+  border-radius: 30px;
+  @media (min-width: 750px) {
+    width: 393px;
+  }
+}
+
+.container-auth {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: white;
+}

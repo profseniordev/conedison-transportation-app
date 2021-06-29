@@ -1,0 +1,76 @@
+.assign-dialog-title {
+  text-align: center;
+  color: #2b2d39;
+  font-size: 20px;
+  padding-top: 33px;
+}
+.assign-dialog-content {
+  overflow: hidden;
+  width: auto;
+  padding: 0 20px 10px;
+  min-width: 500px;
+}
+.assign-content-text {
+  margin: 15px 0;
+}
+.assign-container-btn {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.assign-note {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 48px;
+  overflow-y: auto;
+}
+
+////
+
+.close-button {
+  background-size: contain;
+  background: url('../../../../Assets/icons/close-button.png') no-repeat;
+  width: 40px;
+  height: 40px;
+  margin: 13px 13px 0 0;
+  cursor: pointer;
+}
+.button-cancel {
+  width: 48%;
+  height: 48px;
+  border: 1px solid #f2f2f2;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 24px;
+  color: #333333;
+}
+.button-save {
+  width: 48%;
+  height: 48px;
+  border-radius: 24px;
+  background: #333333;
+  color: white;
+}
+
+.blue {
+  color: #2f80ed;
+}
+.text-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #bdbdbd;
+  margin-top: -7px;
+  margin-left: 23px;
+}
+.MuiDialogTitle-root {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 16px 24px 0 24px !important;
+}
+.MuiDialog-paperWidthSm {
+  border-radius: 24px !important;
+}

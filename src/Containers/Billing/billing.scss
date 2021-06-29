@@ -1,0 +1,310 @@
+.billing-container {
+  .billing-header {
+    padding: 12px;
+
+    .Search-root-2 {
+      min-width: 233px;
+    }
+
+    .MuiOutlinedInput-root {
+      min-height: 55px;
+    }
+    .MuiSelect-selectMenu {
+      width: 100% !important;
+      padding-left: 16px !important;
+    }
+    .MuiSelect-select {
+      &:focus{
+      background-color: transparent;
+      }
+    }
+    .MuiSelect-icon {
+      background-color: #ffffff;
+    }
+
+    .MuiAutocomplete-paper{
+      border-radius: 16px !important;
+    }
+    .MuiMenu-paper {
+      margin-top: 3px;
+    }
+    .MuiAutocomplete-root{
+      width: 100% !important;
+      .MuiOutlinedInput-input {
+        padding: 0px !important;
+      }
+      .MuiFormLabel-root {
+        padding-top: 7px;
+      }
+      .MuiInputLabel-shrink {
+        margin-top: -5px;
+      }
+    }
+    .MuiAutocomplete-inputRoot{
+      padding: 0;
+      padding-top: 5px;
+    }
+    .MuiAutocomplete-tag {
+      margin: 5px;
+      margin-right: 5px;
+      max-width: 40%;
+      /* max-width: 148px; */
+    }
+    .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot{
+    padding-top: 11px ;
+    padding-bottom: 11px ;
+    padding-left: 15px ;
+    padding-right: 0px ;
+    min-height: 55px;
+    }
+    .MuiAutocomplete-tagSizeSmall{
+      margin: 2px;
+      /* width: 135px; */
+      width: 51% !important;
+    }
+    .MuiOutlinedInput-root{
+      min-height: 55px !important;
+    }
+    .MuiSelect-select{
+      min-width: 28px !important;
+    }
+
+    .po-btn-margins {
+      margin-right: 10px;
+      width: 233px;
+      height: 37px;
+      padding-top: 3px;
+      margin-top: 8px;
+    }
+    .deps-filter{
+      .MuiInputBase-input {
+        width: 2% !important;
+      }
+    }
+   /* .MuiInputBase-input {
+      width: 2% !important;
+    }*/
+  }
+  .height-57{
+    height: 57px;
+  }
+  .justify-center{
+    justify-content: center;
+  }
+  .bcgr-white{
+    background: #ffffff;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    p{
+      font-weight: 500;
+      font-size: 14px;
+      padding-top: 21px;
+      padding-bottom: 19px;
+      margin: 0;
+    }
+  }
+  .billing-body {
+    padding-top: 15px;
+    .billing-table-container {
+      overflow-y: auto;
+      overflow-x: hidden;
+      max-height: calc(100vh - 290px);
+      .dispute,
+      .request-hour-confirmation,
+      .open-real-timesheet {
+        width: 24px;
+        height: 24px;
+        background: #ffffff;
+        border: 1px solid #f2f2f2;
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 1;
+        svg {
+          width: 16px;
+        }
+        span {
+          position: absolute;
+          top: -8px;
+          right: -8px;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background: #2f80ed;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 10px;
+          line-height: 20px;
+          color: #ffffff;
+        }
+      }
+      .request-hour-confirmation {
+        margin-right: 16px;
+      }
+      a{
+        color: black;
+        //text-decoration: none;
+        background-color: transparent;
+      }
+
+    }
+  }
+  .MuiTableCell-root {
+    padding: 10px !important;
+  }
+  .HeaderBilling {
+    position: sticky;
+  }
+  .block-white {
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    box-shadow: 0 6px 58px rgba(196, 203, 214, 0.103611);
+    border-radius: 16px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 2fr 150px  minmax(150px, 233px) minmax(150px, 233px) 233px 300px;
+    grid-column-gap: 20px;
+    padding: 16px;
+    padding-right: 28px;
+
+    .align{
+      align-self: center;
+      .MuiFormControlLabel-root{
+        margin: 0;
+      }
+    }
+
+  }
+  .block-white-info {
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    box-shadow: 0 6px 58px rgba(196, 203, 214, 0.103611);
+    border-radius: 16px;
+    margin-bottom: 26px;
+    padding-top: 8px;
+    .col-2 {
+      flex: 13.5%;
+    }
+  }
+  .column {
+    width: 100%;
+  }
+  .text-label {
+    font-size: 12px;
+  }
+  .css-1okebmr-indicatorSeparator {
+    background-color: white;
+  }
+  .css-109onse-indicatorSeparator {
+    background-color: hsl(0, 0%, 95%);
+  }
+  .css-yk16xz-control,
+  .css-1fhf3k1-control {
+    border-radius: 12px;
+    min-height: 46px;
+  }
+  .css-1pahdxg-control {
+    border-radius: 12px;
+    min-height: 46px;
+  }
+  .btn {
+    border-radius: 24px !important;
+  }
+  .btn-secondary {
+    background: #bdbdbd !important;
+    border-color: #bdbdbd !important;
+  }
+  .btn-primary {
+    background: #2f80ed !important;
+  }
+  .table-info-billing {
+    border: 1px solid #f2f2f2;
+    border-left: none;
+    border-right: none;
+    .table-title {
+      font-family: Roboto, serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: #bdbdbd;
+    }
+    .table-description {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      color: #333333;
+    }
+  }
+  .vertical-border {
+    width: 2px;
+    background: #f2f2f2;
+    margin: 0;
+  }
+  .sad-mood {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background: url('../../icons/sentiment_dissatisfied.png') no-repeat;
+  }
+  .good-mood {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background: url('../../icons/sentiment_satisfied.png') no-repeat;
+  }
+  .sad {
+    color: #eb5757;
+  }
+  .good {
+    color: #27ae60;
+  }
+  .show-details {
+    color: #2f80ed;
+    text-decoration: underline;
+    text-decoration-color: #2f80ed;
+  }
+  .MuiInput-underline:before {
+    border-bottom: none;
+  }
+  .MuiInput-underline:after {
+    border-bottom: none;
+  }
+  .MuiInput-underline:hover {
+    border-bottom: none;
+  }
+  .actions-row{
+    display: grid;
+    grid-column-gap: 14px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .thumb-wrapper{
+      width: 20px;
+      height: 20px;
+      margin-top: -21px;
+    }
+    img {
+      opacity: 0;
+      width: 20px;
+      height: 20px;
+      z-index: 2;
+    }
+  }
+  .color-blue{
+    color: #2f80ed !important;
+  }
+}

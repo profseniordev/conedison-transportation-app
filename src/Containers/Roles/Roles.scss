@@ -1,0 +1,103 @@
+@media screen and (max-width: 991px) {
+  .div-role-table {
+    .div-col {
+      min-width: 250px;
+      &:first-child {
+        min-width: 250px;
+      }
+    }
+  }
+}
+
+.pagination-select {
+  padding-left: 16;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.pagination-control {
+  padding-right: 16;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.pagination-pages {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.div-role-table {
+  .div-header {
+    .div-col {
+      &:first-child {
+        width: 250px;
+      }
+
+      &:nth-child(2) {
+        width: 250px;
+      }
+
+      &:nth-child(3) {
+        width: calc(100% - 700px);
+        .ce-search-control {
+          width: 100%;
+        }
+      }
+
+      &:last-child {
+        width: 200px;
+        border-right: none;
+        .ce-search-control {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .div-body {
+    .div-item {
+      .div-col {
+        &:first-child {
+          width: 250px;
+        }
+
+        &:nth-child(2) {
+          width: 250px;
+        }
+
+        &:nth-child(3) {
+          width: calc(100% - 678px);
+          justify-content: end;
+        }
+
+        &:last-child {
+          width: 180px;
+          border-right: none;
+        }
+      }
+    }
+  }
+  .MuiFormLabel-root{
+    padding: 0;
+  }
+}
+.menu {
+  border-radius: 16px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.ml-20{
+  margin-left: 20px;
+}
+.w-140{
+  width: 140px !important;
+}
+.MuiAutocomplete-input{
+  min-width: 0% !important;
+}

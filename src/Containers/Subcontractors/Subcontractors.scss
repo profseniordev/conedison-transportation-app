@@ -1,0 +1,21 @@
+.subcontractors-list-page {
+  .MuiTableCell-root {
+    padding: 10px !important;
+  }
+}
+.status{
+  display: flex;
+  justify-content: space-around;
+  .online{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  .offline{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+  }
+}

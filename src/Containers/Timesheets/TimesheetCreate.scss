@@ -1,0 +1,67 @@
+@import "../../variables.scss";
+
+.sign-canvas {
+  border: 2px solid $grey;
+}
+
+.no-sign {
+  height: 100px;
+  border: 2px solid $grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.clear-btn {
+  border: 1px solid $grey;
+  display: block;
+}
+
+.download-link {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.timesheet-form{
+.MuiSelect-select:focus {
+  background-color: transparent !important;
+}
+.MuiMenu-paper {
+  width: 200px;
+}
+.MuiSelect-selectMenu {
+  width: 200px !important;
+}
+
+.css-26l3qy-menu{
+  z-index: 2 !important;
+  border-radius: 13px !important;
+}
+
+.css-1fhf3k1-control,
+.css-yk16xz-control{
+  border-radius: 13px !important;
+  height: 57 ;
+  width: 222;
+}
+.css-1pahdxg-control{
+  border-radius: 13px !important;
+  height: 57 ;
+  border-color: #3f51b5 !important;
+  box-shadow: 0 0 0 1px #3f51b5 !important;
+}
+
+.MuiInputBase-root {
+  background: white;
+  width: 222;
+}
+.comment-section{
+  .MuiInputBase-root {
+    background: white;
+    width: 100%;
+  }
+}
+} 

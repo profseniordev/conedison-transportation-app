@@ -1,0 +1,6 @@
+projectKey=ConEd_Solution_Web-PROD
+serverUrl=http://3.81.128.91/sonarqube
+serverVersion=7.9.5.38598
+dashboardUrl=http://3.81.128.91/sonarqube/dashboard?id=ConEd_Solution_Web-PROD
+ceTaskId=AXeKf4iy0J40Eifnm8ZS
+ceTaskUrl=http://3.81.128.91/sonarqube/api/ce/task?id=AXeKf4iy0J40Eifnm8ZS

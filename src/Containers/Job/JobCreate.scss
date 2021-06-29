@@ -1,0 +1,342 @@
+
+.JobCreate{
+    background: #F4F9FD;
+    height: calc(100vh - 70px) !important;
+    .write-pen{
+        background-size: contain;
+        background: url("../../icons/write-pen.png") no-repeat;
+        width: 18px;
+        height: 17px;
+        position: absolute;
+        right: 22px;
+        top: 45px;
+    }
+    .arrow_backward{
+        width: 16px;
+        height: 16px;
+        background-size: contain;
+        background: url("../../icons/arrow_backward.png") no-repeat;
+    }
+    .close-dagger{
+        background-size: contain;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        background: url("../../icons/close-dagger.png") no-repeat;
+    }
+    .folder{
+        background-size: contain;
+        margin: 0 auto;
+        padding-bottom: 39px;
+        width: 32px;
+        height: 29px;
+        background: url("../../icons/Folder-downlaod.png") no-repeat;
+    }
+    .border-gray{
+        border: 1px solid #F2F2F2;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .add-another-job{
+        background-size: contain;
+        margin-top: 4px;
+        margin-right: 8px;
+        width: 20px;
+        height: 20px;
+        background: url("../../icons/add-another-job.png") no-repeat;
+    }
+.delete-another-job{
+        background-size: contain;
+        margin-top: 4px;
+        margin-right: 8px;
+        width: 15px;
+        height: 16px;
+        background: url("../../icons/delete-another-job.png") no-repeat;
+    }
+
+    .delete-another-job-text{
+        color: #EB5757;
+        text-decoration: #EB5757;;
+    }
+    .delete{
+        background: url("../../Assets/icons/Delete.png")no-repeat;
+        background-size: contain;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .address{
+        border: 1px solid gray;
+        border-radius: 12px;
+        min-height: 46px;
+    }
+
+    .job-create-page {
+        overflow-y: scroll;
+        max-height: 90%;
+    }
+    .react-datepicker__header--time {
+        height: 63px;
+    }
+    .text-16{
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .text-14{
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .text-blue{
+        color: #2F80ED;
+        text-decoration: underline #2F80ED;
+    }
+    .text-dropzone{
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.48px;
+        color: #2F80ED;
+    }
+    .text-dropzone-14{
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.48px;
+        color: #2F80ED;
+    }
+    .button-blue{
+        background: #2F80ED;
+        cursor: pointer;
+        border-radius: 12px;
+        color: white;
+        text-align: center;
+        margin-top: 9px;
+        height: 46px;
+        padding-top: 12px;
+    }
+
+    .text-assigned{
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #BDBDBD;
+    }
+    .text-12{
+        font-family: Roboto, serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #4F4F4F;
+    }
+    .ce-form-control-textarea {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #F2F2F2;
+        border-radius: 12px;
+        padding: 15px;
+        align-content: center;
+        align-items: center;
+        resize: none;
+        width: 100%;
+        height: 104px;
+        font-size: 14px;
+        font-family: Roboto Regular;
+    }
+    .border-right{
+        height: 63px;
+        margin-top: -8px;
+        border-right: 1px solid #F2F2F2;;
+    }
+    .css-1okebmr-indicatorSeparator {
+        background-color: white;
+    }
+    .css-109onse-indicatorSeparator  {
+        background-color: hsl(0,0%,95%);;
+    }
+    .css-yk16xz-control, .css-1fhf3k1-control {
+        border-radius: 12px;
+        min-height: 46px;
+    }
+    .css-1pahdxg-control{
+        border-radius: 12px;
+        min-height: 46px;
+    }
+    .error {
+        position: absolute;
+        margin: 0 !important;
+    }
+    .error-location {
+        top: 75px;
+    }
+}
+
+
+.container-indent {
+    padding: 0 123px;
+}
+.template-wrapper {
+    width: 100%;
+    max-width: 822px;
+    margin: 0 auto;
+}
+.block-white{
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0 6px 58px rgba(196, 203, 214, 0.103611);
+    border-radius: 16px;
+    margin-bottom: 26px;
+    padding: 22px 22px 11px 22px;
+}
+.img-border{
+border: 1px solid #E0E0E0;
+padding: 15px;
+border-right: none;
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+    width: 48px;
+    height: 48px;
+}
+.block-time{
+    .MuiInput-underline:before {
+        border-bottom: none;
+    }
+    .MuiInputBase-root{
+        border: 1px solid;
+        border-radius: 12px;
+        width: 140px;
+        padding-left: 10px;
+    }
+}
+
+
+.border-text{
+    border: 1px solid #E0E0E0;
+    padding: 13px 20px 0 11px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 133px;
+    height: 48px;
+
+}
+
+.worker{
+    background: url("../../Assets/icons/workers.png")no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 14px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    .container-scss {
+        width: 100%;
+        padding: 35px 40px 35px 290px;
+
+    }
+}
+
+.btn-contact-to-requestor, .btn-contact-to-supervisor {
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: right !important;
+    text-decoration-line: underline !important;
+    color: #2F80ED !important;
+    text-transform: capitalize !important;
+    position: absolute !important;
+    right: 5px !important;
+    top: -6px !important;
+}
+.text-id {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #BDBDBD;
+}
+.text-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #2F80ED;
+}
+
+@media (max-width: 1240px) {
+
+    .container-indent {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container-indent {
+        padding: 0 18px 0 22px ;
+    }
+    .template-wrapper {
+        max-width: 415px;
+    }
+}
+
+.MuiOutlinedInput-input {
+    padding: 18.5px 4px!important;
+}
+.MuiOutlinedInput-root {
+    border-radius: 12px!important;
+}
+
+.MuiInputBase-input {
+    width: 87% !important;
+
+}
+@media all and (max-width: 900px){
+    //.border-right{
+    //   display: none;
+    //}
+    .filter-box {
+        width: 100%;
+        max-height: 100%;
+        z-index: 11111;
+        .filter-button{
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+   
+}
+.deleteJob{
+    background-size: contain;
+    width: 162px;
+    height: 197px;
+    background: url("../../icons/deleteJob.png") no-repeat;
+}
